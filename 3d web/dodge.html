@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn More education - Cyberpunk Green</title>
+
+  <!-- Fonts & Model Viewer -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0a0f0a, #0a1a0a);
+      color: #00ffcc;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #001a0a;
+      border-bottom: 2px solid #00ffcc;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    header h1 {
+      font-size: 20px;
+      color: #39ff14;
+      text-shadow: 0 0 8px #39ff14;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #39ff14;
+      text-shadow: 0 0 10px #39ff14;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      color: #00ffcc;
+      text-shadow: 0 0 15px #00ffcc;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      color: #39ff14;
+      text-shadow: 0 0 10px #39ff14;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 500px;
+      margin-top: 30px;
+      background: transparent;
+    }
+
+    .courses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+
+    .course {
+      background: rgba(0, 0, 0, 0.75);
+      border: 2px solid #00ffcc;
+      border-radius: 10px;
+      width: 220px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 0 15px #00ffcc;
+      transition: transform 0.4s ease;
+    }
+
+    .course:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px #39ff14;
+    }
+
+    .course h3 {
+      color: #00ffcc;
+      text-shadow: 0 0 5px #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    .course p {
+      font-size: 14px;
+      color: #c8ffe0;
+      min-height: 60px;
+    }
+
+    .course button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: none;
+      border: 2px solid #39ff14;
+      color: #39ff14;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .course button:hover {
+      background-color: #39ff14;
+      color: #0a0a0a;
+      box-shadow: 0 0 15px #39ff14;
+    }
+
+    footer {
+      background-color: #001a0a;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaffcc;
+      border-top: 1px solid #004422;
+    }
+
+    @media (max-width: 768px) {
+      .courses {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LEARN MORE EDUCATION</h1>
+    <nav>
+      <a href="dodge.html">HOME</a>
+      <a href="all corses.html">COURSES</a>
+      <a href="why us.htm">WHY US</a>
+      <a href="contect us.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>ADVANCE YOUR CAREER WITH<br> LEARN MORE EDUCATION</h2>
+    <p>Expert-led training in professional skills to help you grow faster and smarter.</p>
+  </div>
+
+  <!-- 3D Car Model -->
+  <model-viewer src="dodge_challenger_rt__www.vecarz.com.glb" 
+                alt="3D Dodge Challenger"
+                auto-rotate 
+                camera-controls 
+                shadow-intensity="1" 
+                exposure="1.1">
+  </model-viewer>
+
+  <!-- Courses -->
+  <div class="courses">
+    <div class="course">
+      <h3>ADVANCED EXCEL</h3>
+      <p>Master formulas, dashboards, macros & more.</p>
+      <a href="advanseexcle.html">
+        <button>ENROLL NOW</button>
+    </a>
+    </div>
+    <div class="course">
+      <h3>TALLY ERP</h3>
+      <p>Learn GST, accounting basics & automation.</p>
+      <a href="tally xrp.html">
+        <button>ENROLL NOW</button>
+    </a>
+    </div>
+    <div class="course">
+      <h3>GRAPHIC DESIGN</h3>
+      <p>Design stunning visuals with Photoshop & Canva.</p>
+      <a href="graphic dezing.html">
+        <button>ENROLL NOW</button>
+    </div>
+    <div class="course">
+      <h3>WEB DESIGN</h3>
+      <p>Build responsive websites with HTML, CSS & JS.</p>
+      <a href="web dezing.html">
+        <button>ENROLL NOW</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Learn More Institute. All Rights Reserved.
+  </footer>
+
+</body>
+</html>

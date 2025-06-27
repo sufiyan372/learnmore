@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Excel Course</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0a0f0a, #0a1a0a);
+      color: #00ffcc;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #001a0a;
+      padding: 20px 40px;
+      text-align: center;
+      border-bottom: 2px solid #00ffcc;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #39ff14;
+      text-shadow: 0 0 8px #39ff14;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #00ffcc;
+      border-bottom: 2px solid #00ffcc;
+      padding-bottom: 10px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    code {
+      background-color: #003322;
+      padding: 4px 6px;
+      border-radius: 4px;
+      color: #aaffcc;
+    }
+
+    .formula-section {
+      background: rgba(0, 255, 204, 0.05);
+      border: 1px solid #00ffcc;
+      border-left: 5px solid #39ff14;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #001a0a;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaffcc;
+      border-top: 1px solid #004422;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Advanced Excel Course</h1>
+  </header>
+
+  <div class="container">
+    <p>
+      Welcome to the Advanced Excel course. This course is designed to boost your spreadsheet skills and make you a true Excel power user.
+    </p>
+
+    <h2>What You Will Learn:</h2>
+    <ul>
+      <li>Data analysis using advanced formulas</li>
+      <li>PivotTables and PivotCharts</li>
+      <li>Macros and VBA basics</li>
+      <li>Conditional Formatting</li>
+      <li>Data Validation and Protection</li>
+      <li>Dynamic Dashboards</li>
+      <li>Lookup and Reference functions</li>
+    </ul>
+
+    <h2>Core Advanced Excel Formulas</h2>
+
+    <div class="formula-section">
+      <h3>1. VLOOKUP</h3>
+      <p><strong>Formula:</strong> <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
+      <p>Used to search a value in the first column of a table and return a value in the same row from another column.</p>
+    </div>
+
+    <div class="formula-section">
+      <h3>2. INDEX + MATCH</h3>
+      <p><strong>Formula:</strong> <code>=INDEX(return_range, MATCH(lookup_value, lookup_range, 0))</code></p>
+      <p>A more powerful alternative to VLOOKUP allowing left lookups and better flexibility.</p>
+    </div>
+
+    <div class="formula-section">
+      <h3>3. IF & Nested IF</h3>
+      <p><strong>Formula:</strong> <code>=IF(logical_test, value_if_true, value_if_false)</code></p>
+      <p>Use for logic-based conditions, decision trees, and validations.</p>
+    </div>
+
+    <div class="formula-section">
+      <h3>4. SUMIFS / COUNTIFS</h3>
+      <p><strong>Formula:</strong> <code>=SUMIFS(sum_range, criteria_range1, criteria1, ...)</code></p>
+      <p>Sum or count cells based on multiple conditions.</p>
+    </div>
+
+    <div class="formula-section">
+      <h3>5. TEXT Functions</h3>
+      <p><strong>Useful ones:</strong></p>
+      <ul>
+        <li><code>LEFT(text, num_chars)</code></li>
+        <li><code>RIGHT(text, num_chars)</code></li>
+        <li><code>LEN(text)</code></li>
+        <li><code>CONCATENATE(text1, text2, ...)</code></li>
+      </ul>
+      <p>Used to manipulate text values efficiently.</p>
+    </div>
+
+    <div class="formula-section">
+      <h3>6. DATA VALIDATION</h3>
+      <p>Restrict data entry using dropdown lists or custom formulas.</p>
+      <p><strong>Example:</strong> Use <code>=ISNUMBER(A1)</code> to allow only numbers.</p>
+    </div>
+
+    <div class="formula-section">
+      <h3>7. CONDITIONAL FORMATTING</h3>
+      <p>Highlight cells based on values or rules.</p>
+      <p><strong>Example:</strong> Color top 10% sales values or overdue dates automatically.</p>
+    </div>
+
+    <h2>Live Projects You’ll Build</h2>
+    <ul>
+      <li>Sales Dashboard with Pivot Tables</li>
+      <li>Inventory Management Tracker</li>
+      <li>Automated Invoice Generator using Macros</li>
+      <li>HR Attendance and Salary Sheet</li>
+    </ul>
+
+    <h2>Tools Covered</h2>
+    <ul>
+      <li>Microsoft Excel 2016 and above</li>
+      <li>Excel Online & Office 365</li>
+      <li>Google Sheets (Advanced comparison)</li>
+    </ul>
+
+    <h2>Certification & Career Support</h2>
+    <p>
+      You will receive an industry-recognized certificate and one-on-one guidance for job interviews, resume building, and freelancing as an Excel expert.
+    </p>
+     <a href="dodge.html" class="button">Homepage</a>
+  </div>
+
+  <footer>
+    © 2025 Learn More Institute. All rights reserved. | Advanced Excel Course Page
+  </footer>
+
+</body>
+</html>
